@@ -1,3 +1,26 @@
+# The Original GitHub Repo
+
+The original GitHub Repo is at https://github.com/EngMohamedNor/LabReportRepo
+
+### If you want to get the local deployment version, clone the following
+
+`git clone https://github.com/dzr201732120115/LRR.git`
+### Steps of local test deployment
+1.download **xampp** <br>
+2.follow the website to do: 
+> https://blog.csdn.net/qing666888/article/details/81914389 <br>
+
+**note:** don't change mysql's **port** and don't set its **password** <br>
+3.put LRR file in .\xampp\htdocs\LRR <br>
+4.run http://localhost:8081/ (if you change apache's port from 80 to 8081),login phpMyAdmin <br>
+5.create database lrr in phpMyAdmin and import lrr(1).sql (or lrr_database.sql). <br>
+6.ensure apache and xampp server is running on Xampp-control,
+run http://localhost:8081/LRR/script.php first,then run http://localhost:8081/LRR/index.php. <br>
+7.use account and password in phpMyAdmin's lrr.users_table to login. <br>
+8.begin your test
+
+
+
 # About LRR
 
 LRR (Lab Report Repository) is an online software application for posting assignments, submitting assignments and marking (re-marking) assignments.
@@ -124,9 +147,6 @@ Check FAQ.md (TBA) for details.
 
 
 
-# The Original GitHub Repo
-
-The original GitHub Repo is at https://github.com/EngMohamedNor/LabReportRepo
 
 
 # Contributor List
